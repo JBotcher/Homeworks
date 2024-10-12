@@ -65,9 +65,8 @@
 
         // --------------- 4. ცვლადების მნიშვნელობის გაცვლა ---------------
         int x = 5, y = 10;
-        int c = x;
         x = y;
-        b = c;
+        y = 5;
 
         Console.WriteLine(x);
         Console.WriteLine(y);
