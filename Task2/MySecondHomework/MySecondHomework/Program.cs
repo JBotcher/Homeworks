@@ -1,5 +1,7 @@
-﻿class Program
-{ 
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+class Program
+{
     static void Main()
     {
         // --------------- 1. არითმეტიკული ოპერაციები ---------------
@@ -90,10 +92,9 @@
         {
             Console.WriteLine("ჭარბწონიანი");
         }
-        else 
+        else
         {
             Console.WriteLine("მსუქანი");
         }
     }
 }
-     
