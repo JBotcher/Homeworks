@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Taks1",
-    "\\Task2"
+    "\\Task2",
+    "\\Task3",
+    "\\Task3\\MyThirdHomework",
+    "\\Task3\\MyThirdHomework\\MyThirdHomework"
   ],
+  "SelectedNode": "\\Task3\\MyThirdHomework\\MyThirdHomework\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
