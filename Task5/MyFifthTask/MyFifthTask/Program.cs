@@ -10,6 +10,17 @@ class Book
 
     public Book(string title, string author, string isbn, int copiesAvailable)
     {
+        // Validations for fields
+        if (string.IsNullOrWhiteSpace(title))
+            throw new ArgumentException("Title cannot be empty.");
+        if (string.IsNullOrWhiteSpace(author))
+            throw new ArgumentException("Author cannot be empty.");
+        if (string.IsNullOrWhiteSpace(isbn))
+            throw new ArgumentException("ISBN cannot be empty.");
+        if (copiesAvailable < 0)
+            throw new ArgumentException("Copies available cannot be negative.");
+
+
         Title = title;
         Author = author;
         ISBN = isbn;
